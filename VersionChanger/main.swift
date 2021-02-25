@@ -173,4 +173,12 @@ do {
     print("Error: \(error.localizedDescription)")
 }
 
+struct a {
+    var a: String
+}
 
+extension a {
+    var b: Int {
+        return 0
+    }
+}
